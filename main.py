@@ -176,5 +176,5 @@ class Animator:
 if __name__ == "__main__":
     wave_packet = WavePacket()
     animator = Animator(wave_packet)
-    animator.animate(save=True)
+    animator.animate(save=False)
     plt.show()
