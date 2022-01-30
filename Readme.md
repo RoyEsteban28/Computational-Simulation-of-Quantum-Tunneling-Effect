@@ -5,7 +5,7 @@
 ### Clone the project:
 
 ```
-git clone https://github.com/***
+git clone https://github.com/RoyEsteban28/Computational-Simulation-of-Quantum-Tunneling-Effect.git
 ```
 
 Change to the app directory:
