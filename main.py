@@ -126,7 +126,7 @@ class Animator:
         (self.line_imaginary,) = self.ax.plot(
             [], [], c="m",  alpha=0.5)
         (self.line_prob,) = self.ax.plot(
-            [], [], c="b", label=r"Prob. $|\psi(x)|$", linewidth=2
+            [], [], c="b", label=r"$|\psi(x)|^2$", linewidth=2
         )
         (self.barrier_line,) = self.ax.plot([], [], c="r", label=r"$V(x)$")
 
