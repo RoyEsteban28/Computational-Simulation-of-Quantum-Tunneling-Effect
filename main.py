@@ -133,7 +133,7 @@ class Animator:
         self.title = self.ax.set_title("")
         self.ax.legend(prop=dict(size=12))
         self.ax.set_xlabel("$x$")
-        self.ax.set_ylabel(r"$|\psi(x)|$")
+        self.ax.set_ylabel(r"$|\psi(x)|^2$")
 
         efac = ymax / 2.0 / self.wave_packet.vmax
         v_plot = self.wave_packet.V * efac
